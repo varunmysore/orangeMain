@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28453" started-at="2023-01-09T19:14:22 IST" finished-at="2023-01-09T19:14:50 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28453" started-at="2023-01-09T19:14:22 IST" finished-at="2023-01-09T19:14:50 IST">
+      <class name="scripts.Test2">
+        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.Test2@eb21112]" name="setPath" is-config="true" duration-ms="20" started-at="2023-01-09T19:14:22 IST" finished-at="2023-01-09T19:14:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPath -->
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:scripts.Test2@eb21112]" name="launchbrowser" is-config="true" duration-ms="10524" started-at="2023-01-09T19:14:24 IST" finished-at="2023-01-09T19:14:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="addEmployee()[pri:0, instance:scripts.Test2@eb21112]" name="addEmployee" is-config="true" duration-ms="499" started-at="2023-01-09T19:14:34 IST" finished-at="2023-01-09T19:14:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="addEmp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.Test2@eb21112]" name="addEmp" duration-ms="14358" started-at="2023-01-09T19:14:35 IST" data-provider="objData" finished-at="2023-01-09T19:14:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[reddy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mysuru]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[deepak]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Deepak&123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Deepak&123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.Test2@eb21112]" name="closeBrowser" is-config="true" duration-ms="1184" started-at="2023-01-09T19:14:49 IST" finished-at="2023-01-09T19:14:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="killtask()[pri:0, instance:scripts.Test2@eb21112]" name="killtask" is-config="true" duration-ms="7" started-at="2023-01-09T19:14:50 IST" finished-at="2023-01-09T19:14:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killtask -->
+      </class> <!-- scripts.Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
